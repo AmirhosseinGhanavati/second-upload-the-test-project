@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 239, 243);
+}
+
+.navigation {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+nav li {
+    margin: 16px;
+    font-weight: 600;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav img {
+    width: 7%;
+    padding-left: 30px;
+}
+
+nav button {
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav a {
+    display: none;
+    cursor: pointer;
+
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003791;
+}
+
+.innerbanner {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbanner1 {
+    width: 50%;
+}
+
+.innerbanner2 {
+    width: 50%;
+}
+
+.innerbanner2 img {
+    width: 100%;
+}
+
+.innerbanner1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.innerbanner1 p {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.innerbanner1 button {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.unique {
+    background-color: white;
+}
+
+.hm-container {
+    width: 100%;
+    height: 16vh;
+    background-color: #00174F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm-container1 {
+    width: 80%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm-container1 img {
+    width: 80%;
+    padding: 15px;
+}
+
+.new-container {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0F1E;
+}
+
+.new-container1 {
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* checked */
+.new-container1 h1 {
+    font-size: 22px;
+    font-weight: bolder;
+    background-image: url(./Images/Vector_8_blue_vivid.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+    color: white;
+    text-transform: uppercase;
+}
+
+.console-container {
+    width: 100%;
+    /* height: 65vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0F1E;
+}
+
+.console-container1 {
+    width: 80%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console-container2 {
+    width: 20%;
+    /* height: 50vh; */
+    margin: auto;
+}
+
+.console-container2 h4 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.console-container2 img {
+    width: 100%;
+}
+
+
+.payday-container {
+    width: 100%;
+    height: 90vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payday-container1 {
+    width: 80%;
+    height: 90vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.payday-container1 img {
+    width: 100%;
+    height: 75vh;
+}
+
+#payday {
+    background-color: white;
+    padding: 1px 20px;
+}
+
+.payday-container2 h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.payday-container2 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payday-container2 button {
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#term {
+    font-weight: 400;
+}
+
+.young-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0F1E;
+}
+
+.young-container1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.young-container2 {
+    width: 40%;
+    margin: auto;
+}
+
+.young-container2 img {
+    width: 100%;
+}
+
+.young-container2 h2{
+    text-transform: uppercase;
+    color: white;
+}
+
+.young-container2 p{
+    color: white;
+}
+
+.download-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0F1E;
+}
+
+.download-container1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.download-container2 {
+    width: 40%;
+}
+
+#mobileimg {
+    width: 100%;
+    height: 80vh;
+}
+
+.main-apple {
+    display: flex;
+    gap: 15px;
+}
+
+.download-container2 h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+.download-container2 p {
+    padding: 15px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.join-container {
+    width: 100%;
+    height: 50vh;
+    background-color: #003791;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.join-container h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+}
+
+input {
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.join-container button {
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.join-container p {
+    padding: 10px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container1 {
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container2 {
+    width: 20%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container2 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-container2 li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-container2 img{
+    width: 50%;
+}
